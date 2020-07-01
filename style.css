@@ -1,26 +1,95 @@
-body{
-    margin: 0;
+body{   
+    margin:  0px;
     font-family: 'Roboto', sans-serif;
 }
-.name-color{
-    color: deeppink;
-    font-size: 40px;
 
+.name-color{
+    color:rgb(255, 38, 154) ;
+    font-size: 40px;
 }
-p{
-    color: gray;
+p {
+    color: rgb(131, 131, 131);
 }
-.half-width img{
+.half-side {
     width: 40%;
-}
-.half-width{
     float: left;
-    width: 40px;
     margin-left: 8%;
     padding-left: 2%;
+    margin-top: 5%
+}
+.top-margin {
+    margin-top: 10%;
+    padding: 1%
+}
+.half-side img {
+    width: 70%;
+}
+section {
+    height:600px;
+    padding-bottom: 100px;
+    padding: 5%;
+}
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(to right, #d10052, #dd0060, #e9006f, #f5007f, #ff0090);
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+}
+.top-banner {
+    background-image: url("images/header-bg.png");
+    background-repeat: no repeat;
+    background-size: 100% 100%;
+}
+.biography-banner {
+    background-image: url("images/biography-bg.png");
+    background-repeat: no repeat;
+    background-size: 100% 100%;
+}
+.latest-work {
+    text-align: center;
+    font-size: 30px;
     
 }
-section{
-    height: 600px;
-    padding-bottom: 150px;
+.work-photo img {
+    float: left;
+    width: 23%;
+    padding: 7px;
+    margin: 4%
+}
+.lower-part{
+    text-align: center;
+}
+#text-f{
+    padding-bottom: 20px;
+}
+#pra-color {
+    color: black;
+}
+#mess-color{
+    color: white;
+    font-weight: 400;
+}
+.h1-font {
+    font-size: 40px;
+}
+
+.email-bottom-part{
+    text-decoration: none;
+    background-image: linear-gradient(to right, #ee3f7c, #e73575, #e12a6d, #da1c66, #d3075f);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+
+}
+.lower-part {
+    background-image: url("images/footer-bg.png");
+    background-repeat: no repeat;
+    background-size: 100% 100%;
+}
+footer{
+    font-weight: 400;
+    text-align: center;
 }
